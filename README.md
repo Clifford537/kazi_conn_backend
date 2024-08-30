@@ -45,6 +45,11 @@ This project demonstrates how to implement authentication in a Django applicatio
     ```bash
     python manage.py runserver
     ```
+    
+6. **To test the api run the command**:
+      ```bash
+    python manage.py runserver
+    ```
 
 ## Usage
 
@@ -60,9 +65,4 @@ To register a new user, send a POST request to the `http://127.0.0.1:8000/user_a
     "lastName": "This field may not be blank."
     and other fields
 }
-    ```
-    
-5. **To test the api run the command**:
-      ```bash
-    python manage.py test user_account
-    ```
+
