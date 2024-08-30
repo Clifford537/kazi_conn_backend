@@ -1,6 +1,10 @@
 from rest_framework import serializers
 from .models import User
 
+
+##need to start with user registation and login APi
+
+
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
